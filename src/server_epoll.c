@@ -5,7 +5,8 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-#include "server.h"
+
+#include "server_epoll.h"
 
 char buffer[BUFFER_SIZE];
 
